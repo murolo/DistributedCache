@@ -1,0 +1,549 @@
+[2014-05-30 15:47:45.542283] INFO  transport.cpp:394 [47449435046240] ADDIOC, SOCK: 4, 10.138.87.53:5198, RON: 1, WON: 1, IOCount:1, IOC:0xc71fb30
+[2014-05-30 15:47:45.543594] INFO  ../../src/packets/server_hash_table_packet.hpp:74 [47449435046240] uncompress server list, data size: 101
+[2014-05-30 15:47:46.598082] INFO  transport.cpp:394 [47449435046240] ADDIOC, SOCK: 5, 10.138.87.57:5191, RON: 1, WON: 1, IOCount:2, IOC:0xeb4f2d0
+[2014-05-30 15:47:46.939484] INFO  transport.cpp:394 [47449435046240] ADDIOC, SOCK: 6, 10.138.87.56:5191, RON: 1, WON: 1, IOCount:3, IOC:0xeb50170
+[2014-05-30 16:00:37.046534] WARN  run (tair_client_api_impl.cpp:3268) [1121286464] send request to configserver(10.138.87.54:5198), config_version: 88984, new_config_version: 88985
+[2014-05-30 16:00:37.046640] INFO  transport.cpp:394 [1121286464] ADDIOC, SOCK: 7, 10.138.87.54:5198, RON: 1, WON: 1, IOCount:4, IOC:0xeb4f180
+[2014-05-30 16:00:37.049096] INFO  ../../src/packets/server_hash_table_packet.hpp:74 [1098205504] uncompress server list, data size: 101
+[2014-05-30 16:00:37.049270] INFO  tair_client_api_impl.cpp:3229 [1098205504] config_version: 88984 => 88985
+[2014-05-30 16:00:41.352383] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:41.708554] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:41.708573] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150783] waitobj not found.
+[2014-05-30 16:00:43.357238] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:43.709396] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:43.709416] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150784] waitobj not found.
+[2014-05-30 16:00:45.362078] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:45.710237] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:45.710261] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150785] waitobj not found.
+[2014-05-30 16:00:47.342730] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:47.686884] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:47.686905] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150786] waitobj not found.
+[2014-05-30 16:00:49.347542] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:49.687767] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:49.687796] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150787] waitobj not found.
+[2014-05-30 16:00:51.352490] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:51.688615] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:51.688643] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150788] waitobj not found.
+[2014-05-30 16:00:53.357340] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:53.689486] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:53.689509] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150789] waitobj not found.
+[2014-05-30 16:00:55.362216] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:55.690351] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:55.690373] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150790] waitobj not found.
+[2014-05-30 16:00:57.367068] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:57.692903] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:57.692928] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150791] waitobj not found.
+[2014-05-30 16:00:59.371937] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:00:59.696073] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:00:59.696097] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150792] waitobj not found.
+[2014-05-30 16:01:01.376762] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:01.697102] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:01.697123] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150793] waitobj not found.
+[2014-05-30 16:01:03.381673] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:03.701776] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:03.701805] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150794] waitobj not found.
+[2014-05-30 16:01:05.386531] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:05.702642] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:05.702666] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150795] waitobj not found.
+[2014-05-30 16:01:07.391371] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:07.703502] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:07.703523] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150796] waitobj not found.
+[2014-05-30 16:01:09.396232] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:09.704381] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:09.704408] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150797] waitobj not found.
+[2014-05-30 16:01:11.401111] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:11.705240] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:11.705266] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150798] waitobj not found.
+[2014-05-30 16:01:13.405957] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:13.706090] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:13.706112] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150799] waitobj not found.
+[2014-05-30 16:01:15.410840] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:15.706962] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:15.706984] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150800] waitobj not found.
+[2014-05-30 16:01:17.415706] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:17.707813] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:17.707833] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150801] waitobj not found.
+[2014-05-30 16:01:19.420544] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:19.710707] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:19.710728] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150802] waitobj not found.
+[2014-05-30 16:01:22.365828] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:22.713960] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:22.713979] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150983] waitobj not found.
+[2014-05-30 16:01:24.370666] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:24.714838] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:24.714857] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150984] waitobj not found.
+[2014-05-30 16:01:26.375530] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:26.715707] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:26.715726] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150985] waitobj not found.
+[2014-05-30 16:01:28.380408] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:28.716548] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:28.716568] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150986] waitobj not found.
+[2014-05-30 16:01:30.385270] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:30.717424] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:30.717443] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150987] waitobj not found.
+[2014-05-30 16:01:32.534232] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:32.718263] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:32.718282] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150988] waitobj not found.
+[2014-05-30 16:01:34.539076] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:34.719145] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:34.719163] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150989] waitobj not found.
+[2014-05-30 16:01:36.543937] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:36.720002] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:36.720021] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150990] waitobj not found.
+[2014-05-30 16:01:38.548777] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:38.720870] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:38.720888] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150991] waitobj not found.
+[2014-05-30 16:01:40.553647] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:40.721714] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:40.721746] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [150992] waitobj not found.
+[2014-05-30 16:01:42.814599] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:43.222796] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:43.222815] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151053] waitobj not found.
+[2014-05-30 16:01:44.819493] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:45.223790] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:45.223814] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151054] waitobj not found.
+[2014-05-30 16:01:46.800123] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:47.204298] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:47.204317] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151055] waitobj not found.
+[2014-05-30 16:01:48.804985] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:49.205157] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:49.205175] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151056] waitobj not found.
+[2014-05-30 16:01:50.809850] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:51.206026] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:51.206046] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151057] waitobj not found.
+[2014-05-30 16:01:52.814703] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:53.206865] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:53.206884] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151058] waitobj not found.
+[2014-05-30 16:01:54.819593] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:55.207667] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:55.207684] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151059] waitobj not found.
+[2014-05-30 16:01:56.824445] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:57.208606] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:57.208633] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151060] waitobj not found.
+[2014-05-30 16:01:58.829324] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:01:59.209455] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:01:59.209474] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151061] waitobj not found.
+[2014-05-30 16:02:00.834164] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:01.210319] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:01.210337] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151062] waitobj not found.
+[2014-05-30 16:02:04.267659] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:04.711829] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:04.711866] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151213] waitobj not found.
+[2014-05-30 16:02:06.272512] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:06.712741] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:06.712761] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151214] waitobj not found.
+[2014-05-30 16:02:08.277375] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:08.713550] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:08.713572] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151215] waitobj not found.
+[2014-05-30 16:02:10.282236] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:10.714405] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:10.714425] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151216] waitobj not found.
+[2014-05-30 16:02:12.287088] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:12.715271] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:12.715290] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151217] waitobj not found.
+[2014-05-30 16:02:14.291963] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:14.716129] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:14.716149] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151218] waitobj not found.
+[2014-05-30 16:02:16.296828] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:16.717001] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:16.717021] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151219] waitobj not found.
+[2014-05-30 16:02:18.301682] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:18.717853] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:18.717872] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151220] waitobj not found.
+[2014-05-30 16:02:20.306560] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:20.718732] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:20.718752] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151221] waitobj not found.
+[2014-05-30 16:02:22.311411] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:22.719560] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:22.719580] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151222] waitobj not found.
+[2014-05-30 16:02:22.747556] WARN  run (tair_client_api_impl.cpp:3268) [1121286464] send request to configserver(10.138.87.53:5198), config_version: 88985, new_config_version: 88985
+[2014-05-30 16:02:27.073481] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:27.221522] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:27.221541] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151533] waitobj not found.
+[2014-05-30 16:02:29.078322] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:29.222377] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:29.222396] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151534] waitobj not found.
+[2014-05-30 16:02:31.083122] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:31.223240] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:31.223259] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151535] waitobj not found.
+[2014-05-30 16:02:33.088058] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:33.224105] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:33.224124] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151536] waitobj not found.
+[2014-05-30 16:02:35.092931] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:35.224982] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:35.225001] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151537] waitobj not found.
+[2014-05-30 16:02:37.097788] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:37.225825] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:37.225844] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151538] waitobj not found.
+[2014-05-30 16:02:39.102649] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:39.226689] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:39.226708] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151539] waitobj not found.
+[2014-05-30 16:02:41.107506] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:41.227566] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:41.227585] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151540] waitobj not found.
+[2014-05-30 16:02:43.112375] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:43.228409] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:43.228428] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151541] waitobj not found.
+[2014-05-30 16:02:45.153243] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:45.229265] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:45.229284] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151542] waitobj not found.
+[2014-05-30 16:02:47.806194] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:48.206359] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:48.206378] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151633] waitobj not found.
+[2014-05-30 16:02:49.811060] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:50.207224] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:50.207251] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151634] waitobj not found.
+[2014-05-30 16:02:51.815943] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:52.212081] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:52.212101] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151635] waitobj not found.
+[2014-05-30 16:02:53.820798] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:54.212964] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:54.212983] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151636] waitobj not found.
+[2014-05-30 16:02:55.825663] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:56.213796] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:56.213815] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151637] waitobj not found.
+[2014-05-30 16:02:57.830499] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:02:58.214663] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:02:58.214694] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151638] waitobj not found.
+[2014-05-30 16:02:59.835376] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:00.215522] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:00.215541] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151639] waitobj not found.
+[2014-05-30 16:03:01.840232] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:02.216384] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:02.216403] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151640] waitobj not found.
+[2014-05-30 16:03:03.845109] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:04.217263] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:04.217282] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151641] waitobj not found.
+[2014-05-30 16:03:05.849962] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:06.218108] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:06.218128] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151642] waitobj not found.
+[2014-05-30 16:03:09.039351] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:09.219427] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:09.219446] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151773] waitobj not found.
+[2014-05-30 16:03:11.044193] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:11.220285] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:11.220304] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151774] waitobj not found.
+[2014-05-30 16:03:13.049051] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:13.221126] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:13.221145] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151775] waitobj not found.
+[2014-05-30 16:03:15.053942] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:15.221997] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:15.222020] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151776] waitobj not found.
+[2014-05-30 16:03:17.058798] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:17.222867] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:17.222887] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151777] waitobj not found.
+[2014-05-30 16:03:19.063644] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:19.223707] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:19.223726] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151778] waitobj not found.
+[2014-05-30 16:03:21.068512] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:21.224576] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:21.224597] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151779] waitobj not found.
+[2014-05-30 16:03:23.073374] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:23.225436] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:23.225454] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151780] waitobj not found.
+[2014-05-30 16:03:25.078226] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:25.226304] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:25.226323] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151781] waitobj not found.
+[2014-05-30 16:03:27.083115] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:27.227159] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:27.227177] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151782] waitobj not found.
+[2014-05-30 16:03:29.148008] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:29.228025] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:29.228044] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151793] waitobj not found.
+[2014-05-30 16:03:31.152868] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:31.228903] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:31.228922] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151794] waitobj not found.
+[2014-05-30 16:03:33.157714] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:33.229748] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:33.229767] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151795] waitobj not found.
+[2014-05-30 16:03:35.162585] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:35.230605] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:35.230642] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151796] waitobj not found.
+[2014-05-30 16:03:37.167438] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:37.231464] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:37.231484] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151797] waitobj not found.
+[2014-05-30 16:03:39.172304] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:39.232330] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:39.232349] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151798] waitobj not found.
+[2014-05-30 16:03:41.177160] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:41.233202] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:41.233222] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151799] waitobj not found.
+[2014-05-30 16:03:43.182019] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:43.234042] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:43.234060] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151800] waitobj not found.
+[2014-05-30 16:03:45.186899] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:45.234911] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:45.234930] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151801] waitobj not found.
+[2014-05-30 16:03:47.167548] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:47.211564] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:47.211583] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151802] waitobj not found.
+[2014-05-30 16:03:49.172386] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:49.212404] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:49.212422] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151803] waitobj not found.
+[2014-05-30 16:03:51.177270] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:51.213263] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:51.213283] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151804] waitobj not found.
+[2014-05-30 16:03:53.182055] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:53.214094] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:53.214111] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151805] waitobj not found.
+[2014-05-30 16:03:55.186950] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:55.214948] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:55.214965] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151806] waitobj not found.
+[2014-05-30 16:03:57.191845] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:57.215842] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:57.215869] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151807] waitobj not found.
+[2014-05-30 16:03:59.196698] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:03:59.216717] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:03:59.216736] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151808] waitobj not found.
+[2014-05-30 16:04:01.201586] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:01.217589] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:01.217607] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151809] waitobj not found.
+[2014-05-30 16:04:03.206429] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:03.218426] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:03.218444] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151810] waitobj not found.
+[2014-05-30 16:04:05.211306] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:05.219282] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:05.219300] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151811] waitobj not found.
+[2014-05-30 16:04:07.216178] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:07.220150] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:07.220168] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151812] waitobj not found.
+[2014-05-30 16:04:07.296187] WARN  run (tair_client_api_impl.cpp:3268) [1121286464] send request to configserver(10.138.87.54:5198), config_version: 88985, new_config_version: 88985
+[2014-05-30 16:04:09.221022] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:09.221041] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:200) [1110796608] [151813] packet is null.
+[2014-05-30 16:04:09.221083] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:11.221891] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:11.221915] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:200) [1110796608] [151814] packet is null.
+[2014-05-30 16:04:11.225880] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:13.230736] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:13.722962] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:13.722984] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151815] waitobj not found.
+[2014-05-30 16:04:15.235593] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:15.724010] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:15.724029] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151816] waitobj not found.
+[2014-05-30 16:04:17.316508] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:17.728668] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:17.728687] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151817] waitobj not found.
+[2014-05-30 16:04:19.321366] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:19.729546] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:19.729567] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151818] waitobj not found.
+[2014-05-30 16:04:21.326226] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:21.730405] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:21.730424] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151819] waitobj not found.
+[2014-05-30 16:04:23.331093] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:23.731258] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:23.731280] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151820] waitobj not found.
+[2014-05-30 16:04:25.335956] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:25.732128] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:25.732147] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151821] waitobj not found.
+[2014-05-30 16:04:27.340823] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:27.732983] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:27.733002] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151822] waitobj not found.
+[2014-05-30 16:04:29.497740] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:29.733830] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:29.733849] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151833] waitobj not found.
+[2014-05-30 16:04:31.502629] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:31.734698] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:31.734717] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151834] waitobj not found.
+[2014-05-30 16:04:33.507475] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:33.735586] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:33.735607] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151835] waitobj not found.
+[2014-05-30 16:04:35.512329] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:35.736421] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:35.736439] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151836] waitobj not found.
+[2014-05-30 16:04:37.517199] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:37.737295] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:37.737314] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151837] waitobj not found.
+[2014-05-30 16:04:39.522077] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:39.738157] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:39.738175] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151838] waitobj not found.
+[2014-05-30 16:04:41.526921] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:41.739012] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:41.739031] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151839] waitobj not found.
+[2014-05-30 16:04:43.531783] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:43.739882] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:43.739904] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151840] waitobj not found.
+[2014-05-30 16:04:45.536653] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:45.740746] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:45.740780] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151841] waitobj not found.
+[2014-05-30 16:04:47.517311] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:47.717387] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:47.717406] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151842] waitobj not found.
+[2014-05-30 16:04:49.870309] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:50.218480] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:50.218508] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151893] waitobj not found.
+[2014-05-30 16:04:51.875198] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:52.219350] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:52.219393] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151894] waitobj not found.
+[2014-05-30 16:04:53.880047] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:54.220189] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:54.220209] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151895] waitobj not found.
+[2014-05-30 16:04:55.884928] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:56.221056] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:56.221075] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151896] waitobj not found.
+[2014-05-30 16:04:57.889784] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:04:58.221919] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:04:58.221939] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151897] waitobj not found.
+[2014-05-30 16:04:59.894611] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:00.226777] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:00.226796] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151898] waitobj not found.
+[2014-05-30 16:05:01.899483] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:02.227647] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:02.227670] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151899] waitobj not found.
+[2014-05-30 16:05:03.904366] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:04.228523] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:04.228542] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151900] waitobj not found.
+[2014-05-30 16:05:05.909241] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:06.229364] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:06.229383] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151901] waitobj not found.
+[2014-05-30 16:05:07.914085] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:08.230210] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:08.230228] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151902] waitobj not found.
+[2014-05-30 16:05:10.030984] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:10.231087] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:10.231106] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151913] waitobj not found.
+[2014-05-30 16:05:12.035862] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:12.231946] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:12.231965] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151914] waitobj not found.
+[2014-05-30 16:05:14.040728] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:14.232807] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:14.232840] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151915] waitobj not found.
+[2014-05-30 16:05:16.045590] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:16.233675] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:16.233694] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151916] waitobj not found.
+[2014-05-30 16:05:18.050453] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:18.234520] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:18.234538] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151917] waitobj not found.
+[2014-05-30 16:05:20.055321] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:20.235397] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:20.235416] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151918] waitobj not found.
+[2014-05-30 16:05:22.060182] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:22.236251] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:22.236270] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151919] waitobj not found.
+[2014-05-30 16:05:24.065055] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:24.237120] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:24.237157] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151920] waitobj not found.
+[2014-05-30 16:05:26.069908] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:26.237960] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:26.237979] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151921] waitobj not found.
+[2014-05-30 16:05:28.074778] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:28.238838] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:28.238857] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151922] waitobj not found.
+[2014-05-30 16:05:30.663886] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:30.739911] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:30.739930] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151933] waitobj not found.
+[2014-05-30 16:05:32.668750] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:32.740775] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:32.740794] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151934] waitobj not found.
+[2014-05-30 16:05:34.673610] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:34.741635] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:34.741654] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151935] waitobj not found.
+[2014-05-30 16:05:36.678482] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:36.742490] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:36.742510] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151936] waitobj not found.
+[2014-05-30 16:05:38.683337] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:38.743361] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:38.743380] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151937] waitobj not found.
+[2014-05-30 16:05:40.688210] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:40.744234] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:40.744253] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151938] waitobj not found.
+[2014-05-30 16:05:42.693073] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:42.745085] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:42.745104] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151939] waitobj not found.
+[2014-05-30 16:05:44.697929] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:44.745944] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:44.745963] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151940] waitobj not found.
+[2014-05-30 16:05:46.678586] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:46.722586] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:46.722618] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151941] waitobj not found.
+[2014-05-30 16:05:48.683436] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:48.723443] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:48.723461] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151942] waitobj not found.
+[2014-05-30 16:05:49.651906] WARN  run (tair_client_api_impl.cpp:3268) [1121286464] send request to configserver(10.138.87.53:5198), config_version: 88985, new_config_version: 88985
+[2014-05-30 16:05:50.724315] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:50.724350] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:200) [1110796608] [151953] packet is null.
+[2014-05-30 16:05:50.724383] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:52.725175] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:52.725202] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:200) [1110796608] [151954] packet is null.
+[2014-05-30 16:05:52.729174] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:54.734035] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:55.226267] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:55.226286] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151955] waitobj not found.
+[2014-05-30 16:05:56.738908] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:57.227112] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:57.227132] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151956] waitobj not found.
+[2014-05-30 16:05:58.743772] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:05:59.227966] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:05:59.227986] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151957] waitobj not found.
+[2014-05-30 16:06:00.748627] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:01.228828] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:01.228847] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151958] waitobj not found.
+[2014-05-30 16:06:02.753482] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:03.229687] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:03.229705] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151959] waitobj not found.
+[2014-05-30 16:06:04.814367] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:05.230565] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:05.230584] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151960] waitobj not found.
+[2014-05-30 16:06:06.819248] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:07.231428] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:07.231447] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151961] waitobj not found.
+[2014-05-30 16:06:08.824105] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:09.232290] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:09.232308] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151962] waitobj not found.
+[2014-05-30 16:06:10.985030] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:11.233151] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:11.233170] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151983] waitobj not found.
+[2014-05-30 16:06:12.990083] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:13.233997] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:13.234015] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151984] waitobj not found.
+[2014-05-30 16:06:14.998762] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:15.234862] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:15.234881] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151985] waitobj not found.
+[2014-05-30 16:06:17.003636] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:17.235727] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:17.235746] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151986] waitobj not found.
+[2014-05-30 16:06:19.008493] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:19.236637] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:19.236663] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151987] waitobj not found.
+[2014-05-30 16:06:21.013354] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:21.237450] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:21.237470] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151988] waitobj not found.
+[2014-05-30 16:06:23.018215] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:23.238308] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:23.238331] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151989] waitobj not found.
+[2014-05-30 16:06:25.023078] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:25.239190] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:25.239214] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151990] waitobj not found.
+[2014-05-30 16:06:27.027947] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:27.240038] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:27.240064] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151991] waitobj not found.
+[2014-05-30 16:06:29.032810] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:29.208869] WARN  run (tair_client_api_impl.cpp:3268) [1121286464] send request to configserver(10.138.87.54:5198), config_version: 88985, new_config_version: 88986
+[2014-05-30 16:06:29.209666] INFO  ../../src/packets/server_hash_table_packet.hpp:74 [1098205504] uncompress server list, data size: 110
+[2014-05-30 16:06:29.209855] INFO  tair_client_api_impl.cpp:3229 [1098205504] config_version: 88985 => 88986
+[2014-05-30 16:06:29.240895] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:29.240915] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [151992] waitobj not found.
+[2014-05-30 16:06:31.105721] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:06:31.105857] INFO  transport.cpp:394 [47449435046240] ADDIOC, SOCK: 8, 10.138.87.55:5191, RON: 1, WON: 1, IOCount:5, IOC:0x2aaaac000c00
+[2014-05-30 16:06:31.241754] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:06:31.241773] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [152013] waitobj not found.
+[2014-05-30 16:07:40.451346] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:07:40.755476] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:07:40.755501] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [165745] waitobj not found.
+[2014-05-30 16:10:30.880080] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:10:31.308268] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:10:31.308289] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [196308] waitobj not found.
+[2014-05-30 16:10:32.896955] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:10:33.309153] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:10:33.309183] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [196310] waitobj not found.
+[2014-05-30 16:10:34.901841] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:10:35.309992] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:10:35.310015] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [196311] waitobj not found.
+[2014-05-30 16:10:36.906708] ERROR hset (tair_client_api_impl.cpp:1352) [47449435046240] request hset is failed, -3989, timeout
+[2014-05-30 16:10:37.310856] WARN  handlePacket (tair_client_api_impl.cpp:3196) [1110796608] ControlPacket, cmd:2
+[2014-05-30 16:10:37.310877] ERROR wakeup_wait_object (../../src/common/wait_object.hpp:207) [1110796608] [196312] waitobj not found.
+[2014-05-30 16:10:59.868447] INFO  transport.cpp:460 [47449435046240] DELIOC, IOCount:4, IOC:0xc71fb30
+[2014-05-30 16:10:59.868511] INFO  transport.cpp:460 [47449435046240] DELIOC, IOCount:3, IOC:0xeb4f2d0
+[2014-05-30 16:10:59.868543] INFO  transport.cpp:460 [47449435046240] DELIOC, IOCount:2, IOC:0xeb50170
+[2014-05-30 16:10:59.868565] INFO  transport.cpp:460 [47449435046240] DELIOC, IOCount:1, IOC:0xeb4f180
+[2014-05-30 16:10:59.868592] INFO  transport.cpp:460 [47449435046240] DELIOC, IOCount:0, IOC:0x2aaaac000c00
+used time:1392277744 success:199820 failed:180

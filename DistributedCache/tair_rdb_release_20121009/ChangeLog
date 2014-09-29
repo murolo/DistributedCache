@@ -1,0 +1,23 @@
+2010-06-30
+* tair opensourced
+2012-06-15
+* tair rdb add new interface genericZrangebyscore and lazyRemoveArea
+2012-07-18
+* tair group error fix
+2012-09-17
+* memory limit bug fix
+* small lock
+* filter feature
+* master/slave cluster sync
+2013-08-29
+* features
+* 1. add lrange interface for c++ client
+* fixbug
+* 1. c++ lpop interface cause ds coredump
+2013-12-24
+* features
+* 1. add lset/ltrim/llen interface for C++ client
+2014-01-10
+* feature
+* 1. add zadd/zcard/zrem/zrange/zrangebyscore/zremrangebyscore/zremrangebyrank
+interface for C++ client

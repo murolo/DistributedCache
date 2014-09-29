@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=/usr/lib:/usr/lib64:.:/home/yinchunxiang/WorkGit/agile/src/third_party/tair/tair_rdb_release_20121009/src/dataserver cd /home/yinchunxiang/WorkGit/agile/src/third_party/tair/tair_rdb_release_20121009/src/dataserver/tair_server/../ sh tair.sh start_ds &

@@ -1,0 +1,1 @@
+link ../packages/tair_rdb.spec
